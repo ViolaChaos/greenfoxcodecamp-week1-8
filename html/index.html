@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+
+<body>
+  <form>
+    <fieldset>
+      <legend>Interesting application form &#128580;</legend>
+      <fieldset>
+        <legend>What is your name?</legend>
+        <input type="text" id="nameField" required>
+      </fieldset>
+      <fieldset>
+        <legend>What is your favorite color?</legend>
+        <div>
+          <input type="checkbox" name="color" id="red">
+          <label for="red">Red</label>
+        </div>
+        <div>
+          <input type="checkbox" name="color" id="green">
+          <label for="green">green</label>
+        </div>
+        <div>
+          <input type="checkbox" name="color" id="blue">
+          <label for="blue">blue</label>
+        </div>
+        <div>
+          <input type="checkbox" name="color" id="other">
+          <label for="other">Other</label>
+          <input type="text" id="other">
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Would you like to become a developer?</legend>
+        <div>
+          <input type="radio" name="choose" id="yes">
+          <label for="yes">Yes</label>
+        </div>
+        <div>
+          <input type="radio" name="choose" id="ano">
+          <label for="ano">Ano</label>
+        </div>
+        <div>
+          <input type="radio" name="choose" id="igen">
+          <label for="igen">Igen</label>
+        </div>
+        <div>
+          <input type="radio" name="choose" id="chinese-font">
+          <label for="chinese-font">备</label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Why would you like to become a developer?</legend>
+        <textarea name="message" cols="30" rows="10"></textarea>
+      </fieldset>
+      <button id="submit-button">Submit</button>
+    </fieldset>
+  </form>
+</body>
+
+</html>
